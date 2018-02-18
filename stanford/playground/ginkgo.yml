@@ -6,11 +6,11 @@
     COMMON_DEPLOYMENT: playground
     edx_ansible_source_repo: 'https://github.com/stvstnfrd/configuration.git'
     edx_platform_repo: 'https://github.com/stvstnfrd/edx-platform.git'
-    edx_platform_version: 'ginkgo/resolutions'
-    edxapp_theme_version: master
+    edx_platform_version: 'ginkgo/fixes'
+    EDXAPP_COMPREHENSIVE_THEME_VERSION: 'ginkgo/wip'
+    EDXAPP_COMPREHENSIVE_THEME_SOURCE_REPO: "https://{{ COMMON_GIT_MIRROR }}/Stanford-Online/openedx-themes.git"
     CONFIGURATION_REPO: 'https://github.com/stvstnfrd/configuration.git'
     configuration_version: 'ginkgo/wip'
     forum_version: 'ginkgo/wip'
-    NOTIFIER_VERSION: 'ginkgo/wip'
     # Remember to enable:
     # /admin/self_paced/selfpacedconfiguration/
