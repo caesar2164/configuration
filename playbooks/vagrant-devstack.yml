@@ -17,8 +17,8 @@
     ENABLE_ELK: true
     ECOMMERCE_DJANGO_SETTINGS_MODULE: "ecommerce.settings.devstack"
     # When provisioning your devstack, we apply security updates
-    # COMMON_SECURITY_UPDATES: true
-    # SECURITY_UPGRADE_ON_ANSIBLE: true
+    COMMON_SECURITY_UPDATES: true
+    SECURITY_UPGRADE_ON_ANSIBLE: true
     MONGO_AUTH: false
     DISCOVERY_URL_ROOT: 'http://localhost:{{ DISCOVERY_NGINX_PORT }}'
     edx_platform_repo: 'https://github.com/stvstnfrd/edx-platform.git'
